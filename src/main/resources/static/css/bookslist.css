@@ -1,0 +1,63 @@
+body{
+background-color:#e6e6ff;
+font-family: times new roman;
+font-weight: bold;
+}
+
+h1 {
+font-family: times new roman;
+font-weight: bold;
+}
+
+.navigation-bar {
+    width: 100%;  /* i'm assuming full width */
+    height: 80px; /* change it to desired width */
+    background-color: white; /* change to desired color */
+}
+.logo {
+    display: inline-block;
+    vertical-align: top;
+    width: 90px;
+    height: 55px;
+    margin-right: 20px;
+    margin-top: 15px;    /* if you want it vertically middle of the navbar. */
+}
+.navigation-bar > a {
+    display: inline-block;
+    vertical-align: top;
+    margin-right: 20px;
+    height: 80px;        /* if you want it to take the full height of the bar */
+    line-height: 80px;    /* if you want it vertically middle of the navbar */
+}
+.crumb {
+	margin-right: 2em;
+	display: inline;
+  font-weight: bold;
+	color: black;
+  font-size: 15pt;
+}
+
+#header {
+  display: inline;
+  margin-right: 510px;
+  font-size: 40pt;
+  text-shadow: 2px 2px #50C9CE;
+}
+
+#add-book {
+    width: 300px;
+    color: black;
+    background-color:white;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 10px;
+    border-radius: 25px;
+  }
+
+add-book-button {
+  background-image: grey;
+  font-size: 15px;
+}

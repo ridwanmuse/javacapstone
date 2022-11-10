@@ -1,0 +1,32 @@
+body{
+background-color:#e6e6ff;
+}
+
+h{
+position: absolute;
+left: 0;
+top: 0;
+
+}
+
+.navigation-bar {
+    width: 100%;  /* i'm assuming full width */
+    height: 80px; /* change it to desired width */
+    background-color: white; /* change to desired color */
+}
+.logo {
+    display: inline-block;
+    vertical-align: top;
+    width: 90px;
+    height: 55px;
+    margin-right: 20px;
+    margin-top: 15px;    /* if you want it vertically middle of the navbar. */
+}
+.navigation-bar > a {
+    display: inline-block;
+    vertical-align: top;
+    margin-right: 20px;
+    height: 80px;        /* if you want it to take the full height of the bar */
+    line-height: 80px;    /* if you want it vertically middle of the navbar */
+}
+
