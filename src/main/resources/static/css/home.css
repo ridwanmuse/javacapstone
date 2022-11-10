@@ -30,3 +30,35 @@ top: 0;
     line-height: 80px;    /* if you want it vertically middle of the navbar */
 }
 
+* {box-sizing:border-box}
+
+
+.slideshow-container {
+  max-width: 260px;
+  position: relative;
+  margin: auto;
+}
+
+div {
+  height: 230px;
+  width: 230px;
+  position:absolute;
+      top:25%;
+      left:1%;
+}
+
+
+.mySlides {
+  display: none;
+}
+
+
+.fade {
+  animation-name: fade;
+  animation-duration: 1.5s;
+}
+
+@keyframes fade {
+  from {opacity: .4}
+  to {opacity: 1}
+}
