@@ -14,14 +14,7 @@ top: 0;
     height: 80px; /* change it to desired width */
     background-color: white; /* change to desired color */
 }
-.logo {
-    display: inline-block;
-    vertical-align: top;
-    width: 90px;
-    height: 55px;
-    margin-right: 20px;
-    margin-top: 15px;    /* if you want it vertically middle of the navbar. */
-}
+
 .navigation-bar > a {
     display: inline-block;
     vertical-align: top;
